@@ -57,7 +57,7 @@ While the summary plot shows overall trends, I chose the waterfall plot to perfo
 
 This graph decomposes the prediction for Day 5. It shows what happens when weather variables conflict with each other. Starting from the model's base expected value, we can clearly see that the wind speed pushed the risk up, which is represented by the positive red bar. However, the cooling effects of the temperature and relative humidity overpowered the wind, dragging the final prediction down, represented by the negative blue bars. I chose this visual format because the length and color of the bars make it extremely easy to understand the exact tipping point of the environmental risk for any given day.
 
-## Take-home Message
+## Conclusion
 Algorithms can inherit historical correlations that defy basic physics. By intentionally maintaining the model's parameters to reflect these historical outliers, this project demonstrates that XAI visualization tools are mandatory before deploying models in real emergency management. Visual auditing is the only way to expose hidden biases and prevent blind trust in automated systems.
 
 ## Execution Instructions
